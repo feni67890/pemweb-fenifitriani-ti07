@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>from pemesanan pisau</title>
+</head>
+<body>
+   <table aling="center" border="1">
+    <tr>
+        <td>
+         <from>
+            <b>Black Goose Bistro | pisau-on-Demand</b>
+            <p>Our 12" wood-fired pisau are available for delivery.
+                 Build Your <br> custom pisau we'll delivery it within an hour.
+            </p>
+            Your Information
+            <br>
+            <label for="id_name">Name:</label>
+            <input type="text" name="name" id="id_name">
+            <br>
+            <label for="id_addres">Addres</label>
+            <input type="text" name="addres" id="id_addres" >
+            <br>
+            <label for="id_telephon">Telephon Number:</label>
+            <input type="tel" name="telephon" id="id_telephon"/>
+            <br/>
+            <label for="id_email">Email:</label>
+            <input type="Email" name="email" id="id_email"/>
+            <br/>
+            Delivery instructions:<br/>
+            <textarea
+             name="instructions"
+             id="id_ins" 
+             cols="30"
+             rows="10"
+             placeholder="No more than 400 characters long"></textarea>
+             <br> <br>
+             <b> Desing Your Dream Pisau:</b>
+             Pisau specs
+             <p>Crust [Choose One] :</p>
+
+             <ul>
+                <li><input type="radio" name="crust" Value="white"/>Classic white</li>
+                <li><input type="radio" name="crust" value="multigrain"/>Multigrain</li>
+                <li><input type="radio" name="crust" value="cheese crust"/>Cheese-stuffed curts </li>
+                <li><input type="radio" name="crust" value="gluten free"/>Gluten-free</li>
+             </ul>
+             <p>Toppings [choose as many as you want]:</p>
+             <ul type="none">
+                <li><input type="checkbox" name="Toppings[]"  Value="red sauce"></li>
+                <li><input type="checkbox" name="Toopings[]"  Vaule="white sauce"></li>
+                <li><input type="checkbox" name="Toopings[]"  Vaule="mozzarela"></li>
+                <li><input type="checkbox" name="Toopings[]"  Vaule="peppenori"></li>
+                <li><input type="checkbox" name="Toopings[]"  Vaule="Mushrooms"></li>
+                <li><input type="checkbox" name="Toopings[]"  Vaule="peppers"></li>
+                <li><input type="checkbox" name="Toopings[]"  Vaule="Anchovies"></li>
+             </ul type="none">
+             <p>Number</p>
+             <label for="id_pisau">How many pisau:</label>
+             <select name="" id="">
+                <option >1</option>
+                <option >2</option>
+                <option selected>3</option>
+                <option >4</option>
+                <option >5</option>
+                <option >6</option>
+             </select>
+             <br>
+             <input type="submit" Vaule="Bring me a pisau!"/>
+             <input type="reset" Vaule="Reset"/>
+         </from>
+        </td>
+    </tr>
+   </table> 
+
+</body>
+</html>
