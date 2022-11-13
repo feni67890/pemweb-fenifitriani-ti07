@@ -1,0 +1,46 @@
+.box1{
+  width: 750px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 20px;
+  border: 2px solid Black;
+  background-color: Aqua;
+}
+
+.box2{
+    width: 105px;
+    height: 120px;
+    margin-top: 15px;
+    margin-left: 20px;
+    border: 2px solid black;
+    background-color:  Yellow;
+}
+
+.box3{
+    width: 105px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 2px solid black;
+    background-color:  Yellow;;
+}
+
+.box4{
+     width: 620px;
+     height: 120px;
+     position: absolute;
+     top: 80px;
+     left: 159px;
+     border: 2px solid black;
+     background-color: coral;
+}
+
+.box5{
+  width: 620px;
+  height: 102px;
+  position: absolute;
+  top: 221px;
+  left: 159px;
+  border: 2px solid Black;
+  background-color: red;
+}
