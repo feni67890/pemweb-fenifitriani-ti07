@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Chat.html</title>
+        <style>
+          .container {
+            border: 1px solid blue;
+            height: 87%;
+            width: 90%;
+            position: fixed;
+            left: 5%;
+            top: 2%;
+          }
+          .inp {
+            width: 95%;
+          }
+    
+          .chat {
+            width: 420%;
+            height: 500px;
+            background-color: blue;
+          }
+    
+          .message {
+            display: flex;
+          }
+    
+          button {
+            width: 30%;
+          }
+        </style>
+    
+        <script>
+          function chat() {
+            let elemen, teks, parent, spasi;
+            let inp_chat = document.getElementById("inp_chat").value;
+            elemen = document.getElementById("span");
+            spasi = document.getElementById("br");
+            teks = document.getElementById(inp_chat);
+    
+            elemen.getElementById(teks);
+    
+            parent = document.getElementById("msg_user");
+            parent.getElementById(spasi);
+            parent.getElementById(elemen);
+          }
+        </script>
+      </head>
+      <body>
+        <div class="container">
+          <div class="chat" id="msg_user"></div>
+          <div class="message">
+            <input type="text" class="inp" id="inp_chat" onfocus="this.value=''"/>
+            <button onclick="chat()">Kirim</button>
+          </div>
+        </div>
+      </body>
+    </html>
